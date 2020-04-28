@@ -21,4 +21,4 @@ def hanio(n, a, b, c):
         hanio(n-1, b, a, c)
 
 
-hanio(3, 'A', 'B', 'C')
+hanio(1, 'A', 'B', 'C')
