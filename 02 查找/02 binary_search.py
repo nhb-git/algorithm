@@ -3,8 +3,12 @@
 # 开发人员   ：Davis Niu
 # 开发时间   ：4/30/2020  07:26 AM 
 # 文件名称   ：02 binary_search.PY
+import cal_time
+import print_log
 
 
+@cal_time.cal_time
+@print_log.print_log
 def binary_search(li, val):
     """
     二分查找
@@ -28,4 +32,4 @@ def binary_search(li, val):
         return None
 
 
-print(binary_search([1, 3, 4, 6, 7, 9], 7))
+print(binary_search(list(range(10000000)), 9999999))
